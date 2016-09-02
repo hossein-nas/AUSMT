@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5a7f6af-3c23-4787-b5bd-a3287825841d" name="Default" comment="" />
+    <ignored path="AUSMT.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AUSMT" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ProviderRepository.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2523">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/Auth/Auth.scss" />
+        <option value="$PROJECT_DIR$/public/css/Auth/_partials/_register.scss" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesJobs.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file://C:/wamp/www/AUSMT/app/Http/routes.php&#10;config/au&#9;FILE&#9;file://C:/wamp/www/AUSMT/config/auth.php&#10;routes.php&#9;FILE&#9;file://C:/wamp/www/AUSMT/app/Http/routes.php" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="settings.editor.splitter.proportion" value="0.23212537" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5a7f6af-3c23-4787-b5bd-a3287825841d" name="Default" comment="" />
+      <created>1472811219958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1472811219958</updated>
+      <workItem from="1472811221581" duration="5512000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5512000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923833" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1468673500851" expanded="true" signature="33:421" ph="..." />
+            <marker date="1468673500851" expanded="true" signature="50:419" ph="..." />
+            <marker date="1468673500851" expanded="true" signature="66:112" ph="..." />
+            <marker date="1468673500851" expanded="true" signature="128:174" ph="..." />
+            <marker date="1468673500851" expanded="true" signature="190:243" ph="..." />
+            <marker date="1468673500851" expanded="true" signature="259:308" ph="..." />
+            <marker date="1468673500851" expanded="true" signature="324:371" ph="..." />
+            <marker date="1468673500851" expanded="true" signature="388:414" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <marker date="1468336622484" expanded="true" signature="113:1536" ph="{...}" />
+            <marker date="1468336622484" expanded="true" signature="123:290" ph=" The application's global HTTP middleware stack. ..." />
+            <marker date="1468336622484" expanded="true" signature="322:406" ph="..." />
+            <marker date="1468336622484" expanded="true" signature="417:498" ph=" The application's route middleware groups. ..." />
+            <marker date="1468336622484" expanded="true" signature="536:956" ph="..." />
+            <marker date="1468336622484" expanded="true" signature="555:889" ph="..." />
+            <marker date="1468336622484" expanded="true" signature="911:949" ph="..." />
+            <marker date="1468336622484" expanded="true" signature="967:1120" ph=" The application's route middleware. ..." />
+            <marker date="1468336622484" expanded="true" signature="1157:1532" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1468757448332" expanded="true" signature="12782:13310" ph="data:image/svg+xml" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/Auth/Auth.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <marker date="1472814669707" expanded="true" signature="31:1387" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="38:302" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="309:1379" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="333:1242" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="346:1149" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="577:669" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="702:830" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="861:1135" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="879:1059" ph="..." />
+            <marker date="1472814669707" expanded="true" signature="1272:1369" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/Auth/Auth.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/Auth/_partials/_register.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <marker date="1472816735348" expanded="true" signature="9:1436" ph="{...}" />
+            <marker date="1472816735348" expanded="true" signature="175:351" ph="{...}" />
+            <marker date="1472816735348" expanded="true" signature="365:1031" ph="{...}" />
+            <marker date="1472816735348" expanded="true" signature="470:624" ph="{...}" />
+            <marker date="1472816735348" expanded="true" signature="638:1027" ph="{...}" />
+            <marker date="1472816735348" expanded="true" signature="754:1021" ph="{...}" />
+            <marker date="1472816735348" expanded="true" signature="1053:1434" ph="{...}" />
+            <marker date="1472816735348" expanded="true" signature="1097:1147" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1472811586257" expanded="true" signature="4:43" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="66:1922" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="89:1920" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="111:1913" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="158:1902" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="204:1887" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="309:1868" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="411:494" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="637:1845" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="777:1414" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="930:1383" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="1178:1309" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="1464:1817" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="1531:1786" ph="..." />
+            <marker date="1472811586257" expanded="true" signature="1610:1751" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1468336622565" expanded="true" signature="15:3527" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="23:447" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="470:533" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="543:1234" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="1255:1459" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="1274:1353" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="1375:1452" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="1469:2159" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="2183:2409" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="2204:2289" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="2301:2404" ph="//..." />
+            <marker date="1468336622565" expanded="true" signature="2419:3310" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="3334:3523" ph="..." />
+            <marker date="1468336622565" expanded="true" signature="3355:3516" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1472811586322" expanded="false" signature="44:91" ph="..." />
+            <marker date="1472811586322" expanded="true" signature="132:474" ph="{...}" />
+            <marker date="1472811586322" expanded="true" signature="142:216" ph=" Create a new controller instance. ..." />
+            <marker date="1472811586322" expanded="true" signature="252:299" ph="{...}" />
+            <marker date="1472811586322" expanded="true" signature="308:401" ph=" Show the application dashboard. ..." />
+            <marker date="1472811586322" expanded="true" signature="431:472" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <marker date="1468336622488" expanded="false" signature="43:88" ph="..." />
+            <marker date="1468336622488" expanded="true" signature="108:675" ph="{...}" />
+            <marker date="1468336622488" expanded="true" signature="118:303" ph=" Handle an incoming request. ..." />
+            <marker date="1468336622488" expanded="true" signature="372:673" ph="{...}" />
+            <marker date="1468336622488" expanded="true" signature="422:633" ph="..." />
+            <marker date="1468336622488" expanded="true" signature="483:551" ph="..." />
+            <marker date="1468336622488" expanded="true" signature="559:623" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3332">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1468336697557" expanded="false" signature="50:181" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="204:3918" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="214:362" ph=" Determine if the user has too many failed login attempts. ..." />
+            <marker date="1468336697557" expanded="true" signature="429:619" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="492:611" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="628:760" ph=" Increment the login attempts for the user. ..." />
+            <marker date="1468336697557" expanded="true" signature="826:931" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="870:923" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="940:1079" ph=" Determine how many retries are left for the user. ..." />
+            <marker date="1468336697557" expanded="true" signature="1134:1293" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="1193:1285" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="1302:1478" ph=" Redirect the user after determining they are locked out. ..." />
+            <marker date="1468336697557" expanded="true" signature="1541:1853" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="1670:1720" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="1747:1845" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="1748:1844" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="1862:1970" ph=" Get the login lockout error message. ..." />
+            <marker date="1468336697557" expanded="true" signature="2028:2232" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="2241:2355" ph=" Get the lockout seconds. ..." />
+            <marker date="1468336697557" expanded="true" signature="2424:2544" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="2483:2536" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="2553:2697" ph=" Clear the login locks for the given user credentials. ..." />
+            <marker date="1468336697557" expanded="true" signature="2759:2866" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="2805:2858" ph="..." />
+            <marker date="1468336697557" expanded="true" signature="2875:3011" ph=" Get the throttle key for the given request. ..." />
+            <marker date="1468336697557" expanded="true" signature="3069:3171" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="3180:3291" ph=" Get the maximum number of login attempts for delaying further attempts. ..." />
+            <marker date="1468336697557" expanded="true" signature="3335:3436" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="3445:3539" ph=" The number of seconds to delay further login attempts. ..." />
+            <marker date="1468336697557" expanded="true" signature="3578:3670" ph="{...}" />
+            <marker date="1468336697557" expanded="true" signature="3679:3806" ph=" Fire an event when a lockout occurs. ..." />
+            <marker date="1468336697557" expanded="true" signature="3866:3916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <marker date="1468336697504" expanded="true" signature="121:1641" ph="{...}" />
+            <marker date="1468336697504" expanded="true" signature="131:391" ph=" Authorize a given action against a set of arguments. ..." />
+            <marker date="1468336697504" expanded="true" signature="450:621" ph="{...}" />
+            <marker date="1468336697504" expanded="true" signature="630:945" ph=" Authorize a given action for a user. ..." />
+            <marker date="1468336697504" expanded="true" signature="1018:1205" ph="{...}" />
+            <marker date="1468336697504" expanded="true" signature="1214:1375" ph=" Guesses the ability's name if it wasn't provided. ..." />
+            <marker date="1468336697504" expanded="true" signature="1447:1639" ph="{...}" />
+            <marker date="1468336697504" expanded="true" signature="1488:1540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesResources.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1468336697510" expanded="true" signature="78:1141" ph="{...}" />
+            <marker date="1468336697510" expanded="true" signature="88:287" ph=" Authorize a resource action based on the incoming request. ..." />
+            <marker date="1468336697510" expanded="true" signature="375:724" ph="{...}" />
+            <marker date="1468336697510" expanded="true" signature="524:717" ph="..." />
+            <marker date="1468336697510" expanded="true" signature="733:824" ph=" Get the map of resource methods to ability names. ..." />
+            <marker date="1468336697510" expanded="true" signature="870:1139" ph="{...}" />
+            <marker date="1468336697510" expanded="true" signature="893:1131" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesJobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1472817684001" expanded="true" signature="107:594" ph="{...}" />
+            <marker date="1472817684001" expanded="true" signature="117:228" ph=" Dispatch a job to its appropriate handler. ..." />
+            <marker date="1472817684001" expanded="true" signature="268:335" ph="{...}" />
+            <marker date="1472817684001" expanded="true" signature="344:482" ph=" Dispatch a command to its appropriate handler in the current process. ..." />
+            <marker date="1472817684001" expanded="true" signature="522:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <marker date="1468336698487" expanded="false" signature="56:243" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="268:4792" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="278:340" ph=" The default error bag. ..." />
+            <marker date="1468336698487" expanded="true" signature="392:619" ph=" Run the validation routine against the given validator. ..." />
+            <marker date="1468336698487" expanded="true" signature="691:1001" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="781:881" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="918:994" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="1010:1250" ph=" Validate the given request with the given rules. ..." />
+            <marker date="1468336698487" expanded="true" signature="1365:1603" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="1520:1596" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="1612:1961" ph=" Validate the given request with the given rules. ..." />
+            <marker date="1468336698487" expanded="true" signature="2094:2301" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="2129:2293" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="2206:2292" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="2310:2585" ph=" Throw the failed validation exception. ..." />
+            <marker date="1468336698487" expanded="true" signature="2665:2841" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="2759:2832" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="2850:3048" ph=" Create the response for when a request fails validation. ..." />
+            <marker date="1468336698487" expanded="true" signature="3136:3467" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="3223:3283" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="3377:3394" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="3433:3459" ph="..." />
+            <marker date="1468336698487" expanded="true" signature="3476:3632" ph=" Format the validation errors to be returned. ..." />
+            <marker date="1468336698487" expanded="true" signature="3702:3766" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="3775:3852" ph=" Get the URL we should redirect to. ..." />
+            <marker date="1468336698487" expanded="true" signature="3894:3959" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="3968:4079" ph=" Get a validation factory instance. ..." />
+            <marker date="1468336698487" expanded="true" signature="4127:4175" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="4184:4364" ph=" Execute a Closure within with a given error bag set as the default bag. ..." />
+            <marker date="1468336698487" expanded="true" signature="4433:4583" ph="{...}" />
+            <marker date="1468336698487" expanded="true" signature="4592:4681" ph=" Get the key to be used for the view error bag. ..." />
+            <marker date="1468336698487" expanded="true" signature="4717:4790" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <marker date="1468336622473" expanded="false" signature="49:221" ph="..." />
+            <marker date="1468336622473" expanded="true" signature="262:1925" ph="{...}" />
+            <marker date="1468336622473" expanded="true" signature="271:706" ph="..." />
+            <marker date="1468336622473" expanded="true" signature="775:866" ph=" Where to redirect users after login / registration. ..." />
+            <marker date="1468336622473" expanded="true" signature="910:999" ph=" Create a new authentication controller instance. ..." />
+            <marker date="1468336622473" expanded="true" signature="1035:1124" ph="{...}" />
+            <marker date="1468336622473" expanded="true" signature="1133:1293" ph=" Get a validator for an incoming registration request. ..." />
+            <marker date="1468336622473" expanded="true" signature="1341:1563" ph="{...}" />
+            <marker date="1468336622473" expanded="true" signature="1379:1555" ph="..." />
+            <marker date="1468336622473" expanded="true" signature="1387:1554" ph="..." />
+            <marker date="1468336622473" expanded="true" signature="1572:1695" ph=" Create a new user instance after a valid registration. ..." />
+            <marker date="1468336622473" expanded="true" signature="1740:1923" ph="{...}" />
+            <marker date="1468336622473" expanded="true" signature="1775:1915" ph="..." />
+            <marker date="1468336622473" expanded="true" signature="1776:1914" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1468336697513" expanded="true" signature="82:267" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <marker date="1468336697524" expanded="false" signature="50:148" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="174:5898" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="209:303" ph=" Show the application login form. ..." />
+            <marker date="1468336697524" expanded="true" signature="336:387" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="396:490" ph=" Show the application login form. ..." />
+            <marker date="1468336697524" expanded="true" signature="528:770" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="686:727" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="779:933" ph=" Handle a login request to the application. ..." />
+            <marker date="1468336697524" expanded="true" signature="983:1034" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="1043:1197" ph=" Handle a login request to the application. ..." />
+            <marker date="1468336697524" expanded="true" signature="1243:2482" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="1695:1809" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="1964:2049" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="2355:2417" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="2491:2614" ph=" Validate the user login request. ..." />
+            <marker date="1468336697524" expanded="true" signature="2671:2807" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="2702:2799" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="2713:2798" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="2816:3011" ph=" Send the response after the user was authenticated. ..." />
+            <marker date="1468336697524" expanded="true" signature="3093:3406" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="3125:3183" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="3238:3338" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="3415:3565" ph=" Get the failed login response instance. ..." />
+            <marker date="1468336697524" expanded="true" signature="3632:3871" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="3697:3747" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="3774:3863" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="3775:3862" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="3880:3952" ph=" Get the failed login message. ..." />
+            <marker date="1468336697524" expanded="true" signature="4001:4161" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="4170:4320" ph=" Get the needed authorization credentials from the request. ..." />
+            <marker date="1468336697524" expanded="true" signature="4378:4457" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="4466:4564" ph=" Log the user out of the application. ..." />
+            <marker date="1468336697524" expanded="true" signature="4598:4642" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="4651:4749" ph=" Log the user out of the application. ..." />
+            <marker date="1468336697524" expanded="true" signature="4780:4950" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="4959:5018" ph=" Get the guest middleware for the application. ..." />
+            <marker date="1468336697524" expanded="true" signature="5058:5158" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="5167:5262" ph=" Get the login username to be used by the controller. ..." />
+            <marker date="1468336697524" expanded="true" signature="5300:5391" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="5400:5499" ph=" Determine if the class is using the ThrottlesLogins trait. ..." />
+            <marker date="1468336697524" expanded="true" signature="5554:5674" ph="{...}" />
+            <marker date="1468336697524" expanded="true" signature="5585:5666" ph="..." />
+            <marker date="1468336697524" expanded="true" signature="5683:5778" ph=" Get the guard to be used during authentication. ..." />
+            <marker date="1468336697524" expanded="true" signature="5814:5896" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <marker date="1472817742142" expanded="true" signature="19:3866" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="42:3864" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="64:3857" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="111:3846" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="157:3831" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="256:3812" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="365:3789" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="504:1124" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="646:1093" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="889:1019" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="1221:1858" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="1374:1827" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="1622:1753" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="1958:2580" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="2108:2549" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="2341:2475" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="2693:3378" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="2859:3347" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="3126:3273" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="3428:3761" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="3495:3730" ph="..." />
+            <marker date="1472817742142" expanded="true" signature="3574:3695" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1694">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1472811586274" expanded="true" signature="31:3597" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="38:1040" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="901:1032" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="916:960" ph="{...}" />
+            <marker date="1472811586274" expanded="true" signature="978:1020" ph="{...}" />
+            <marker date="1472811586274" expanded="true" signature="1063:3589" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="1121:3047" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="1153:3036" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="1193:1786" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="1368:1614" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="1718:1767" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="1863:3021" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="1952:2041" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="2145:3002" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="2459:2953" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="2583:2701" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="2769:2923" ph="..." />
+            <marker date="1472811586274" expanded="true" signature="3058:3094" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <marker date="1472818008325" expanded="true" signature="9:390" ph="..." />
+            <marker date="1472818008325" expanded="true" signature="405:460" ph="..." />
+            <marker date="1472818008325" expanded="true" signature="423:459" ph="..." />
+            <marker date="1472818008325" expanded="true" signature="638:700" ph="..." />
+            <marker date="1472818008325" expanded="true" signature="665:699" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1468336622519" expanded="false" signature="37:175" ph="..." />
+            <marker date="1468336622519" expanded="true" signature="226:692" ph="{...}" />
+            <marker date="1468336622519" expanded="true" signature="236:315" ph=" The policy mappings for the application. ..." />
+            <marker date="1468336622519" expanded="true" signature="345:401" ph="..." />
+            <marker date="1468336622519" expanded="true" signature="412:579" ph=" Register any application authentication / authorization services. ..." />
+            <marker date="1468336622519" expanded="true" signature="626:690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          <folding>
+            <marker date="1468336622481" expanded="false" signature="44:311" ph="..." />
+            <marker date="1468336622481" expanded="true" signature="352:440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1468336622477" expanded="true" signature="49:129" ph="..." />
+            <marker date="1468336622477" expanded="true" signature="174:812" ph="{...}" />
+            <marker date="1468336622477" expanded="true" signature="183:606" ph="..." />
+            <marker date="1468336622477" expanded="true" signature="643:726" ph=" Create a new password controller instance. ..." />
+            <marker date="1468336622477" expanded="true" signature="762:810" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2523">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
