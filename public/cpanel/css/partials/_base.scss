@@ -15,6 +15,7 @@
 }
 
 *{
+  font-family: $base-font;
   padding: 0px;
   margin: 0px;
   list-style-type: none;
@@ -22,10 +23,14 @@
   direction: rtl;
 }
 
-body{
-
-  text-align: right;
+a{
+  outline: none;
   font-family: $base-font;
+  color:inherit;
+}
+
+body{
+  text-align: right;
   color: $black;
   font-size: $base-font-size;
   //background-color: $body-background-color;
@@ -44,6 +49,39 @@ body{
     display: block;
     //background-color: $whitesmoke;
     padding:10px 30px 15px 20px;
-    font-size:1.8em;
+    font-size:1.5em;
+    font-weight:bold;
+    background-color: $gray-lighter;
+    border-bottom: 1px solid darken($gray-lighter,5);
+  }
+}
+
+.errors{
+  margin: 10px;
+  padding: 15px;
+  display: block;
+  @include border-radius(4px);
+  background-color: $flat-red;
+  color:white;
+  font-size:.85em;
+  li{
+    position: relative;
+    margin-right:25px;
+    &::before{
+      position: absolute;
+      content:'\f071';
+      font-family:FontAwesome;
+      right:-23px;
+      top: 3px;
+    }
+  }
+  &::before{
+    content:'خطایی رخ داده است. لطفا موارد ذکر شده را رعایت بفرمائید';
+    display: block;
+    width: 100%;
+    font-weight:bold;
+    margin:0 5px 8px 5px;
+    padding-bottom:6px;
+    border-bottom:2px solid rgba(black,.05);
   }
 }

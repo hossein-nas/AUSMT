@@ -6,20 +6,33 @@
 
 @section('content')
     <div class="form-group">
-        <form >
-            <div class="item">
-                <p class="input">عنوان پیش آمد را وارد کنید</p>
-                <input type="text" name="title">
-            </div>
+        {!! Form::open(['url'=>'/admin-panel/create/incoming']) !!}
 
             <div class="item">
+                <p class="input">عنوان پیشآمد را وارد کنید</p>
+                {!! Form::text('title') !!}
+            </div>
+            <div class="item">
                 <p>محتوای پیشآمد را در کادر زیر وارد کنید :</p>
-                <textarea name="" id="post_content" ></textarea>
+                {!! Form::textarea('content',null,['id'=>'post_content']) !!}
+            </div>
+
+            <div class="date">
+                {!! Form::text('year',\Morilog\Jalali\jDate::forge()->format('%y')) !!}
+                {!! Form::text('month',\Morilog\Jalali\jDate::forge()->format('%m')) !!}
+                {!! Form::text('day',\Morilog\Jalali\jDate::forge()->format('%d')) !!}
             </div>
 
             <button type="submit" class="btn btn-flat-green btn-large float-left btn-wide" id="submit">ثبت پیشآمد</button>
-        </form>
+        {!! Form::close() !!}
     </div>
+    @if ($errors->any())
+        <ul class="errors">
+            @foreach($errors->all() as $error)
+                <li>{{$error}}</li>
+            @endforeach
+        </ul>
+    @endif
 @endsection
 
 @section('scripts')

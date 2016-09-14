@@ -11,6 +11,7 @@
 @import "partials/checkbox";
 @import "partials/sepcial_posts_table_ui";
 @import "partials/nav_menu";
+@import "partials/file_selection";
 
 
 
@@ -104,6 +105,7 @@
 //-------------------------- Form --------------------------
 
 .form-group{
+    @include clear-fix();
     margin: 0 10px 10px 10px;
     .item{
         position: relative;
@@ -121,7 +123,7 @@
         //    top:15px;
         //    font-size:1.3em;
         //}
-        input{
+        input[type='text']{
             display: block;
             width: 100%;
             height: 60px;
@@ -154,56 +156,42 @@
                 @include box-shadow(0 0 4px lighten($flat-blue,10));
             }
         }
-    }
-    .file{
-        position: relative;
-        input[type='file']{
-            display: none;
-        }
-
-        .filestat{
+        .tooltip{
+            color:white;
+            position: absolute;
+            background-color: rgba($flat-red,.8);
+            width:200px;
             display: block;
-            width: 100%;
-            height: 40px;
-            border: 1px solid $gray-light;
-            outline: none;
             @include border-radius(5px);
-            padding:5px 10px 0 6px;
-            font-family: $base-font;
-            font-size: 1.1em;
-            color: $black;
-            p{
-                width: 520px;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                overflow: hidden;
-                text-align: left;
-                padding: 2px;
-                font-family: "Segoe UI",tahoma;
-                height: 30px;
-                float: right;
-                direction: ltr;
+            min-height: 30px;
+            right:101%;
+            top: 50%;
+            padding: 5px 7px;
+            line-height: 19px;
+            &::after{
+                content:'';
+                display: block;
+                width: 0;
+                height: 0;
+                border:7px solid transparent;
+                border-left-color:rgba($flat-red,.8);
+                position: absolute;
+                left:100%;
+                top:9px;
             }
-            .choosefile{
-                padding:2px 10px;
-                background-color: #f0f0f0;
-                color:#aaa;
-                float: left;
-                font-size: .9em;
-                margin-right: 5px;
+            &::before{
+                content: '\f057';
+                font-family: FontAwesome;
+                display: inline-block;
+                float:left;
+                //margin:5px 5px 2px 1px;
+                font-size:1.1em;
+                color: rgba(white,.8);
                 cursor: pointer;
-                opacity: .8;
-                @include border-radius(4px);
-                &:hover{
-                    opacity: 1;
-                }
-                &:active{
-                    margin-top: 1px;
-                }
             }
-
         }
     }
+
     .categoiesList{
         .cadr{
             display: block;
@@ -228,7 +216,38 @@
             }
         }
     }
-
+    .date{
+        &::before{
+            content:'تاریخ انتشار را تنظیم نمایید:';
+            display: block;
+            width: 100%;
+            text-align: center;
+            color:white;
+            font-size:.8em;
+            padding: 5px;
+            margin-bottom:5px;
+        }
+        margin: auto;
+        display: table;
+        background-color: lighten($flat-red,10);
+        //min-width: 400px;
+        padding: 10px 0 10px 10px;
+        @include border-radius(15px);
+        text-align: center;
+        input[type="text"]{
+            //float:right;
+            float: left;
+            padding: 10px;
+            border:none;
+            @include border-radius(10px);
+            margin-right:10px;
+            display: inline;
+            font-size:1.55em;
+            width: 60px;
+            text-align: center;
+            color: $black-light;
+        }
+    }
 
 }
 

@@ -1,25 +1,51 @@
 @extends('cpanel.master')
 
 @section('title')
-    ثبت همایش یا سیمنار
+   ثبت همایش جدید
 @endsection
 
 @section('content')
     <div class="form-group">
-        <form >
-            <div class="item">
-                <p class="input">عنوان اصلی همایش یا سمینار را وارد کنید :</p>
-                <input type="text" name="title">
-            </div>
+        {!! Form::open(['url'=>'admin-panel']) !!}
 
-            <div class="item">
-                <p>توضیحات همایش یا سیمنار را در کادر زیر وارد کنید :</p>
-                <textarea name="" id="post_content" ></textarea>
-            </div>
+        {!! Form::hidden('post_type',4) !!}
+        <input type="hidden" name="_token" value="{{ csrf_token() }}" class="_token">
 
-            <button type="submit" class="btn btn-flat-green btn-large float-left btn-wide" id="submit">ثبت همایش یا سمینار</button>
-        </form>
+        <div class="item">
+            <p class="input">عنوان همایش را در کادر زیر وارد کنید:</p>
+            {!! Form::text('title') !!}
+            {{--<span class="tooltip">این مکان را باید پر کنید.</span>--}}
+        </div>
+
+        <div class="item">
+            <p>توضیحات مربوط به همایش را در کادر زیر وارد کنید:</p>
+            {!! Form::textarea('content',null,['id'=>'post_content']) !!}
+
+        </div>
+        <div class="item upload-image">
+            {!! Form::label('name','َعکس خود را انتخاب کنید:') !!}
+            {!! Form::file('post_image',['id'=>'file']) !!}
+            {!! Form::hidden('image',null,['id'=>'image']) !!}
+            <div id="uploaded-image">
+            </div>
+            <div id="open-window">انتخاب تصویر</div>
+            <div id="upload-image">
+                آپلود تصویر
+                {{--<span class="percent">89</span>--}}
+            </div>
+        </div>
+
+        {!! Form::submit('ثبت همایش',['id'=>'submit','class'=>'btn btn-flat-green btn-large float-left btn-wide']) !!}
+
+        {!! Form::close() !!}
     </div>
+    @if ($errors->any())
+        <ul class="errors">
+            @foreach($errors->all() as $error)
+                <li>{{$error}}</li>
+            @endforeach
+        </ul>
+    @endif
 @endsection
 
 @section('scripts')
@@ -27,6 +53,7 @@
     <script src="{{asset('cpanel/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
     <script src="{{asset('cpanel/js/checkbox.js')}}"></script>
     <script src="{{asset('cpanel/js/radiobtn.js')}}"></script>
+    <script src="{{asset('cpanel/js/upload_image.js')}}"></script>
     <script>
         CKEDITOR.replace('post_content',{'language':'fa','height':300,'toolbarCanCollapse ':'true'});
     </script>

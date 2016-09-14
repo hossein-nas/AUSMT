@@ -109,8 +109,8 @@
             <section>
                 <a href="/incoming/{{$in->hifen_title}}">
                     <div class="day">
-                        <span>{{$jalali->forge($in->created_at->timestamp)->format("%d")}}</span>
-                        <span>{{$jalali->forge($in->created_at->timestamp)->format("%B")}}</span>
+                        <span>{{$jalali->forge($in->expired_date->timestamp)->format("%d")}}</span>
+                        <span>{{$jalali->forge($in->expired_date->timestamp)->format("%B")}}</span>
                     </div>
                     <p>{{$in->title}}</p>
                 </a>

@@ -1,10 +1,13 @@
 @extends('pages.post')
-
+<?php
+    $comments = $post->comments();
+    $post_id = $post->id;
+?>
 @section('post-section')
-    <img src="{{asset($post->image)}}" alt="post image">
+    <img src="{{asset($post->image)}}" alt="{{$post->title}}">
     <h1 class="title"><a href="/{{ConvPostType($post->post_type)}}/{{$post->hifen_title}}">{{$post->title}}</a></h1>
     <div class="content">
-    {{$post->content}}
+    {!! $post->content !!}
     </div>
     <div class="details">
     <ul>
@@ -13,4 +16,7 @@
     <li>{{$post->created_at->format('H:i')}}</li>
     </ul>
     </div>
+    @include('pages.postview.includes.comments')
+
 @stop
+

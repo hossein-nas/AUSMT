@@ -18,13 +18,15 @@
             </ul>
         </div>
         <div class="body">
-            <div id="news"> @include('cpanel.pages.includes.news')</div>
-            <div id="notification"></div>
-            <div id="seminar">همایش و سیمنـار هـا</div>
-            <div id="incoming">پیشـآمد ها</div>
-            <div id="other">متفرقـه</div>
+            <div id="news">             @include('cpanel.pages.includes.news')              </div>
+            <div id="notification">     @include('cpanel.pages.includes.notfication')       </div>
+            <div id="seminar">          @include('cpanel.pages.includes.seminar')       </div>
+            <div id="incoming">         @include('cpanel.pages.includes.incoming')       </div>
+            <div id="other">            @include('cpanel.pages.includes.other')       </div>
         </div>
     </div>
+
+
 
 @endsection
 

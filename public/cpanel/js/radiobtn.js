@@ -15,25 +15,25 @@ $(document).ready(function (e) {
     //         alert($(this).find('input[type="radio"]').prop('checked'));
     //     })
     // })
+
+    function check_for_sync_ticks () {
+        $('.radiobtn input[type="radio"]').each(function () {
+            if($(this).parents('.radiobtn').hasClass('active') || $(this).prop('checked')==true){
+                $(this).prop('checked',true);
+                $(this).parents('.radiobtn').addClass('active');
+            }
+        })
+    }
+
+
+    /*
+     *   in baraye sharayete ii ke radio button ha ham nam bashan on moghe tick baiad avaz beshe nemitone ro joftesh bemone
+     *   aval hamasho barmidarim baed oni ke click shode ro active mikonim
+     * */
+    function sync_ticks_on_change (elemName) {
+        console.log('.radiobtn input[name="'+elemName+'"]');
+        $('.radiobtn input[name="'+elemName+'"]').each(function () {
+            $(this).parents('div').removeClass('active');
+        })
+    }
 })
-
-function check_for_sync_ticks () {
-    $('.radiobtn input[type="radio"]').each(function () {
-        if($(this).parents('.radiobtn').hasClass('active') || $(this).prop('checked')==true){
-            $(this).prop('checked',true);
-            $(this).parents('.radiobtn').addClass('active');
-        }
-    })
-}
-
-
-/*
-*   in baraye sharayete ii ke radio button ha ham nam bashan on moghe tick baiad avaz beshe nemitone ro joftesh bemone
-*   aval hamasho barmidarim baed oni ke click shode ro active mikonim
-* */
-function sync_ticks_on_change (elemName) {
-    console.log('.radiobtn input[name="'+elemName+'"]');
-    $('.radiobtn input[name="'+elemName+'"]').each(function () {
-        $(this).parents('div').removeClass('active');
-    })
-}

@@ -4,15 +4,25 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 */
 
 @font-face {
-	font-family: 'Iran-Sans';
-	src: url('../../fonts/iransans.eot');
-	src: url('../../fonts/iransans.eot') format('embedded-opentype'),
-	url('../../fonts/iransans.woff') format('woff'),
-	url('../../fonts/iransans.ttf') format('truetype');
-	font-weight: normal;
+	font-family:'Iran-Sans';
+	src:  url("../../fonts/IRANSansWeb_Light.eot");
+	src:  url("../../fonts/IRANSansWeb_Light.eot?#iefix") format("eot"),
+	url("../../fonts/IRANSansWeb_Light.woff2") format("woff2"),
+	url("../../fonts/IRANSansWeb_Light.woff") format("woff"),
+	url("../../fonts/IRANSansWeb_Light.ttf") format("ttf");
+	font-weight:normal;
 	font-style: normal;
 }
-
+@font-face {
+	font-family:'Iran-Sans';
+	src:  url("../../fonts/IRANSansWeb_Bold.eot");
+	src:  url("../../fonts/IRANSansWeb_Medium.eot?#iefix") format("eot"),
+	url("../../fonts/IRANSansWeb_Medium.woff2") format("woff2"),
+	url("../../fonts/IRANSansWeb_Medium.woff") format("woff"),
+	url("../../fonts/IRANSansWeb_Medium.ttf") format("ttf");
+	font-weight:bold;
+	font-style: normal;
+}
 body
 {
 	/* Font */

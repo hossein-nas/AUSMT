@@ -1,4 +1,4 @@
-$(document).ready(function (e) {
+$(document).ready(function () {
     check_for_sync_ticks();
     $('.checkbox').bind('click',function(ev) {
         ev.preventDefault();
@@ -16,15 +16,15 @@ $(document).ready(function (e) {
     //         alert($(this).find('input[type="checkbox"]').prop('checked'));
     //     })
     // })
+
+    function check_for_sync_ticks () {
+        $('.checkbox input[type="checkbox"]').each(function () {
+            if($(this).parents('.checkbox').hasClass('active') || $(this).prop('checked')==true){
+                $(this).prop('checked',true);
+                $(this).parents('.checkbox').addClass('active');
+            }
+        })
+    }
 })
 
-function check_for_sync_ticks () {
-    $('.checkbox input[type="checkbox"]').each(function () {
-        if($(this).parents('.checkbox').hasClass('active') || $(this).prop('checked')==true){
-            $(this).prop('checked',true);
-            $(this).parents('.checkbox').addClass('active');
-        }
-    })
 
-
-}

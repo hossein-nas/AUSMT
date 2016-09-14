@@ -43,7 +43,6 @@
           //background-color: red;
           text-align: center;
           margin-left: 10px;
-          font-weight: 100;
         }
         .badge{
           position: relative;
@@ -120,10 +119,10 @@
   }
 
   &:after{
-    content: "طراحی و توسعه : حسین نصیری 2016";
+    content: "طراحی و توسعه : حسین نصیری ۲۰۱۶";
     display: block;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     padding: 5px;
     background-color: $flat-red;
     color:#f5f5f5;
@@ -174,14 +173,14 @@
       @include transition-duration(1s all);
     }
     .button{
-      padding: 10px 40px 0 20px;
+
+      padding: 10px 30px 0 20px;
       text-align: center;
       @include clear-fix();
       overflow: hidden;
       max-height:0;
       @include transition-duration(1s);
       button{
-        font-family:$base-font;
         float:right;
         background-color:rgba(white,.1);
         @include border-radius(15px);
@@ -190,7 +189,8 @@
         display: inline;
         outline:none;
         cursor: pointer;
-        padding: 2px 15px;
+        padding: 2px 10px;
+        font-size:.7em;
         &:first-child{
           @include border-radius(0 15px 15px 0);
           margin-left: 2px;
@@ -216,9 +216,8 @@
       span{
         display: block;
         text-align:center;
-        font-size:1.3em;
+        font-size:1.2em;
         color:$whitesmoke;
-        font-weight:600;
       }
     }
   }

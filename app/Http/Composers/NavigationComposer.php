@@ -6,6 +6,7 @@ use App\Incoming_event as Incoming;
 use App\Navbar;
 use App\Post;
 use App\Setting;
+use Carbon\Carbon;
 use Illuminate\View\View;
 
 class NavigationComposer {
@@ -31,7 +32,7 @@ class NavigationComposer {
 
     // slider
     public function slider($view) {
-        $SliderItems= Post::where('addToSlider',1)->limit(10)->get();
+        $SliderItems= Post::where('addToSlider',1)->latest()->limit(10)->get();
         $view->with('Items',$SliderItems );
     }
     // homepage
@@ -42,7 +43,7 @@ class NavigationComposer {
             'notfications' => Post::where('post_type',3)->orderBy('created_at','DESC')->limit(6)->get(),
             'seminars' => Post::where('post_type',4)->orderBy('created_at','DESC')->limit(6)->get(),
             'others' => Post::where('post_type',5)->orderBy('created_at','DESC')->limit(6)->get(),
-            'incomings' => Incoming::where('expired_date','>',\Carbon\Carbon::now())->orderBy('expired_date','desc')->get()
+            'incomings' => Incoming::where('expired_date','>',Carbon::now())->oldest('expired_date')->get()
         ];
         $view->with($arr);
     }

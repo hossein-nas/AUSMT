@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProviderRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php">
+      <file leaf-file-name="cpanel.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/cpanel/css/cpanel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2523">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="517">
+              <caret line="173" column="24" selection-start-line="173" selection-start-column="24" selection-end-line="173" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -44,6 +44,8 @@
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/cpanel/pages/new_post.blade.php" />
+        <option value="$PROJECT_DIR$/public/cpanel/css/cpanel.scss" />
       </list>
     </option>
   </component>
@@ -151,7 +153,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="cpanel" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,7 +175,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
+              <option name="myItemId" value="cpanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,7 +221,59 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cpanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cpanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AUSMT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cpanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,58 +288,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AUSMT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AUSMT" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AUSMT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AUSMT" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,7 +298,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file://C:/wamp/www/AUSMT/app/Http/routes.php&#10;config/au&#9;FILE&#9;file://C:/wamp/www/AUSMT/config/auth.php&#10;routes.php&#9;FILE&#9;file://C:/wamp/www/AUSMT/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/wamp/www/AUSMT/resources/views/cpanel/pages/new_post.blade.php&#10;public/cpanel/&#9;FILE&#9;file://C:/wamp/www/AUSMT/public/cpanel&#10;route&#9;FILE&#9;file://C:/wamp/www/AUSMT/app/Http/routes.php&#10;config/au&#9;FILE&#9;file://C:/wamp/www/AUSMT/config/auth.php&#10;routes.php&#9;FILE&#9;file://C:/wamp/www/AUSMT/app/Http/routes.php" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
@@ -352,12 +358,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472811219958</updated>
-      <workItem from="1472811221581" duration="5512000" />
+      <workItem from="1472811221581" duration="8084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5512000" />
+    <option name="totallyTimeSpent" value="8084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
@@ -856,20 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <marker date="1472818008325" expanded="true" signature="9:390" ph="..." />
-            <marker date="1472818008325" expanded="true" signature="405:460" ph="..." />
-            <marker date="1472818008325" expanded="true" signature="423:459" ph="..." />
-            <marker date="1472818008325" expanded="true" signature="638:700" ph="..." />
-            <marker date="1472818008325" expanded="true" signature="665:699" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -914,6 +906,194 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2523">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1468336698062" expanded="false" signature="45:150" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="176:6242" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="186:295" ph=" The application implementation. ..." />
+            <marker date="1468336698062" expanded="true" signature="326:417" ph=" The filesystem instance. ..." />
+            <marker date="1468336698062" expanded="true" signature="450:520" ph=" The path to the manifest file. ..." />
+            <marker date="1468336698062" expanded="true" signature="560:802" ph=" Create a new service repository instance. ..." />
+            <marker date="1468336698062" expanded="true" signature="896:1011" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="1020:1137" ph=" Register the application service providers. ..." />
+            <marker date="1468336698062" expanded="true" signature="1182:2447" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="1543:1612" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="1926:1994" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="2298:2375" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="2456:2608" ph=" Register the load events for the given provider. ..." />
+            <marker date="1468336698062" expanded="true" signature="2678:2916" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="2718:2747" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="2815:2908" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="2859:2907" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="2925:3038" ph=" Compile the application manifest file. ..." />
+            <marker date="1468336698062" expanded="true" signature="3091:4412" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="3434:4356" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="3787:4012" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="3849:3931" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="4283:4346" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="4421:4557" ph=" Create a new provider instance. ..." />
+            <marker date="1468336698062" expanded="true" signature="4605:4659" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="4668:4819" ph=" Determine if the manifest should be compiled. ..." />
+            <marker date="1468336698062" expanded="true" signature="4880:4967" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="4976:5068" ph=" Load the service provider manifest JSON file. ..." />
+            <marker date="1468336698062" expanded="true" signature="5105:5606" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="5412:5599" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="5513:5589" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="5615:5729" ph=" Write the service manifest file to disk. ..." />
+            <marker date="1468336698062" expanded="true" signature="5776:5963" ph="{...}" />
+            <marker date="1468336698062" expanded="true" signature="5809:5899" ph="..." />
+            <marker date="1468336698062" expanded="true" signature="5972:6094" ph=" Create a fresh service manifest data structure. ..." />
+            <marker date="1468336698062" expanded="true" signature="6151:6240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1468674577850" expanded="true" signature="114:537" ph="{...}" />
+            <marker date="1468674577850" expanded="true" signature="124:203" ph=" The attributes that are mass assignable. ..." />
+            <marker date="1468674577850" expanded="true" signature="233:285" ph="..." />
+            <marker date="1468674577850" expanded="true" signature="296:383" ph=" The attributes that should be hidden for arrays. ..." />
+            <marker date="1468674577850" expanded="true" signature="411:454" ph="..." />
+            <marker date="1468674577850" expanded="true" signature="486:534" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1472820666904" expanded="true" signature="9:390" ph="..." />
+            <marker date="1472820666904" expanded="true" signature="405:460" ph="..." />
+            <marker date="1472820666904" expanded="true" signature="423:459" ph="..." />
+            <marker date="1472820666904" expanded="true" signature="638:700" ph="..." />
+            <marker date="1472820666904" expanded="true" signature="665:699" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cpanel/css/partials/_panel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1471652701637" expanded="true" signature="6:364" ph="{...}" />
+            <marker date="1471652701637" expanded="true" signature="147:245" ph="{...}" />
+            <marker date="1471652701637" expanded="true" signature="259:362" ph="{...}" />
+            <marker date="1471652701637" expanded="true" signature="291:358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cpanel/css/partials/_sepcial_posts_table_ui.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4172">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1472041973980" expanded="true" signature="16:2332" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="112:356" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="211:275" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="295:352" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="413:492" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="509:1884" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="572:984" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="821:978" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="997:1880" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="1046:1874" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="1109:1866" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="1258:1856" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="1429:1765" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="1793:1844" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="1902:2329" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="1986:2325" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2041:2319" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2072:2135" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2162:2213" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2238:2311" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2345:3734" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2411:3732" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2475:3728" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2620:3722" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="2845:3517" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="3118:3193" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="3208:3507" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="3260:3495" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="3535:3714" ph="{...}" />
+            <marker date="1472041973980" expanded="true" signature="3582:3704" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cpanel/css/partials/_baseui.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4564">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1471892129215" expanded="true" signature="6:160" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="167:197" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="215:253" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="627:802" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="860:908" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="955:1003" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1014:1056" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1068:1111" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1122:1166" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1176:1224" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1238:1704" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1443:1557" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1568:1702" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1719:1973" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1826:1892" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1903:1971" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="1988:2246" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2097:2164" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2175:2244" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2262:2536" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2379:2450" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2461:2534" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2554:2830" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2677:2748" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2759:2828" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2849:3143" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="2979:3055" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="3066:3141" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="3156:3175" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="3187:3205" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="3214:3242" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="3249:3270" ph="{...}" />
+            <marker date="1471892129215" expanded="true" signature="3278:3320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/cpanel/pages/new_post.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <marker date="1472820742176" expanded="true" signature="44:63" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="95:1233" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="123:1231" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="138:1220" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="170:319" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="359:565" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="597:742" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="783:909" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="954:1084" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="1265:1676" ph="..." />
+            <marker date="1472820742176" expanded="true" signature="1558:1674" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cpanel/css/cpanel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="173" column="24" selection-start-line="173" selection-start-column="24" selection-end-line="173" selection-end-column="24" />
           <folding />
         </state>
       </provider>
