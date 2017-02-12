@@ -1,0 +1,19 @@
+.errorpage{
+	text-align: center;
+	color:$dark-grey;
+	padding: 130px;
+	margin-bottom: 200px;
+	h3{
+		margin: 0;
+		font-size: 2em;
+		color: lighten($dark-grey,10);
+	}
+	h1{
+		margin: 0;
+		font-size: 	6em;
+	}
+	p{
+		color: lighten($dark-grey,10);
+		font-size: 1.3em;
+	}
+}

@@ -8,8 +8,8 @@
     <div class="form-group">
         {!! Form::open(['url'=>'admin-panel']) !!}
 
-        {!! Form::hidden('post_type',4) !!}
-        <input type="hidden" name="_token" value="{{ csrf_token() }}" class="_token">
+        {!! Form::hidden('post_type_id',4) !!}
+        {!! Form::hidden('_token',csrf_token(),['class'=>'_token']) !!}
 
         <div class="item">
             <p class="input">عنوان همایش را در کادر زیر وارد کنید:</p>
@@ -23,9 +23,11 @@
 
         </div>
         <div class="item upload-image">
-            {!! Form::label('name','َعکس خود را انتخاب کنید:') !!}
+            {!! Form::label('name','عکس منتسب به همایش را در این قسمت آپلود کنید:') !!}
             {!! Form::file('post_image',['id'=>'file']) !!}
             {!! Form::hidden('image',null,['id'=>'image']) !!}
+            {!! Form::hidden('destPath','slideshow/_seminar/',['id'=>'destPath']) !!}
+
             <div id="uploaded-image">
             </div>
             <div id="open-window">انتخاب تصویر</div>

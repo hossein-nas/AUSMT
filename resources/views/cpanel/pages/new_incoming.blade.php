@@ -6,10 +6,12 @@
 
 @section('content')
     <div class="form-group">
-        {!! Form::open(['url'=>'/admin-panel/create/incoming']) !!}
+        {!! Form::open(['url'=>'admin-panel']) !!}
+
+            {!! Form::hidden('post_type_id',6) !!}
 
             <div class="item">
-                <p class="input">عنوان پیشآمد را وارد کنید</p>
+                <p class="input">عنوان پیشآمد را در کار زیر وارد کنید:</p>
                 {!! Form::text('title') !!}
             </div>
             <div class="item">
@@ -23,7 +25,8 @@
                 {!! Form::text('day',\Morilog\Jalali\jDate::forge()->format('%d')) !!}
             </div>
 
-            <button type="submit" class="btn btn-flat-green btn-large float-left btn-wide" id="submit">ثبت پیشآمد</button>
+            {!! Form::submit('ثبت پیشآمد',['id'=>'submit','class'=>'btn btn-flat-green btn-large float-left btn-wide']) !!}
+
         {!! Form::close() !!}
     </div>
     @if ($errors->any())

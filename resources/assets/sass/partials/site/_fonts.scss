@@ -1,0 +1,33 @@
+@font-face {
+  font-family:'IRANSans-web';
+  src:  url("../cpanel/fonts/IRANSansWeb_Light.eot");
+  src:  url("../fonts/IRANSansWeb_Light.eot?#iefix") format("eot"),
+  url("../cpanel/fonts/IRANSansWeb_Light.woff2") format("woff2"),
+  url("../cpanel/fonts/IRANSansWeb_Light.woff") format("woff"),
+  url("../cpanel/fonts/IRANSansWeb_Light.ttf") format("ttf");
+  font-weight:normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'IRANSans-web';
+  src:  url("../cpanel/fonts/IRANSansWeb_Bold.eot");
+  src:  url("../cpanel/fonts/IRANSansWeb_Medium.eot?#iefix") format("eot"),
+  url("../cpanel/fonts/IRANSansWeb_Medium.woff2") format("woff2"),
+  url("../cpanel/fonts/IRANSansWeb_Medium.woff") format("woff"),
+  url("../cpanel/fonts/IRANSansWeb_Medium.ttf") format("ttf");
+  font-weight:bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'GanjNameh-web';
+  src:  url("./fonts/GanjNameh/GanjNamehSans-Regular.eot");
+  src:  url("./fonts/GanjNameh/GanjNamehSans-Regular.eot?#iefix") format("eot"),
+        url("./fonts/GanjNameh/GanjNamehSans-Regular.woff2") format("woff2"),
+        url("./fonts/GanjNameh/GanjNamehSans-Regular.woff") format("woff"),
+        url("./fonts/GanjNameh/GanjNamehSans-Regular.otf") format('opentype'),
+        url("./fonts/GanjNameh/GanjNamehSans-Regular.svg") format('svg'),
+        url("./fonts/GanjNameh/GanjNamehSans-Regular.ttf") format("ttf");
+  font-weight:normal;
+  font-style: normal;
+}

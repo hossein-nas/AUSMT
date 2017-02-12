@@ -12,11 +12,15 @@ class CreateIncomingEventsTable extends Migration
      */
     public function up()
     {
+        if (Schema::hasTable('incoming_events')) {
+            return ;
+        }
         Schema::create('incoming_events', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
             $table->string('hifen_title');
             $table->text('content');
+            $table->integer('user_id')->unsigned();
             $table->timestamp('expired_date');
             $table->timestamps();
         });

@@ -1,0 +1,44 @@
+.slider{
+	overflow:hidden;
+	position: relative;
+	ul{
+		padding: 0;
+		margin: 0;
+		display: block;
+		width: 100000px;
+		height: 100%;
+		@include clear-fix();
+		li{ 
+			padding: 0;
+			float:right;
+			margin: 0;
+// 			display: none;
+			width: 1200px;
+			height: 565px;
+			list-style-type:none;
+			text-align: center;
+			overflow:hidden;
+			img{
+				float:right;
+				display: block;
+				height: 100%;
+				width: auto;
+				min-width:100%;
+			}
+			a{
+				position: absolute;
+				display: block;
+				padding: 10px 20px;
+				@include border-radius(10px);
+				background-color: rgba(black,.4);
+				color:white;
+				font-size:1.4em;
+				float:right;
+				margin: 20px;
+				bottom:-25%;
+				max-width:600px;
+				opacity:0;
+			}
+		}
+	}
+}

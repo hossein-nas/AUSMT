@@ -4,7 +4,7 @@
         @foreach($Items as $item)
         <li>
             <img src="{!!$item->image!!}" />
-            <a href="/post/{{$item->hifen_title}}"> {{$item->title}} </a>
+            <a href="/{{$item->posttype->name}}/{{$item->hifen_title}}"> {{$item->title}} </a>
         </li>
         @endforeach
     </ul>

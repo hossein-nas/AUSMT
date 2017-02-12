@@ -12,6 +12,9 @@ class CreateProfessorsTable extends Migration
      */
     public function up()
     {
+        if (Schema::hasTable('professors')) {
+            return ;
+        }
         Schema::create('professors', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');

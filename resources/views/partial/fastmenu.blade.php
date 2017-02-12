@@ -1,5 +1,16 @@
-<div class="fast-menu">
-    <section>
+    @if(count($f_menu))
+        <div class="fast-menu">
+            @foreach($f_menu as $key => $it)
+                <section >
+                    <a href="{{$it['href']}}">
+                        <img src="{{$it['image']}}" alt="{{$it['name']}}">
+                        <p>{{$it['name']}}</p>
+                    </a>
+                </section>
+            @endforeach
+        </div>
+    @endif
+    {{--<section>
         <a href="#">
             <img src="./img/system-amozeshi.png" alt="سیستم آموزشی">
             <p>سیستم آموزشی</p>
@@ -28,5 +39,4 @@
             <img src="./img/taghvim-amozeshi.png" alt="سیستم آموزشی">
             <p>تقویم آموزشی</p>
         </a>
-    </section>
-</div>
+    </section>--}}

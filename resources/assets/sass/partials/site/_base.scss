@@ -1,0 +1,37 @@
+*{
+	box-sizing:border-box;
+	direction: rtl;
+	font-family: $base-font;
+	margin: 0; 
+	padding: 0; 
+}
+a{
+	text-decoration:none;
+	color:inherit;
+	outline: none; 
+	display: block;
+	font-family: $base-font;
+}
+body{
+	background:url("../img/bg.png");
+	font-size:14px;
+}
+.container{
+	position:relative;
+	width:1200px;
+	margin: 0 auto;
+	background-color: white;
+// 	padding: 10px;
+	overflow-x:hidden;
+}
+p {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+::selection{
+	background-color: rgba($yellow, 0.6);
+	color:white;
+}

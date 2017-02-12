@@ -20,8 +20,11 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('partial.footer','\App\Http\Composers\NavigationComposer');
         view()->composer('partial.nav','\App\Http\Composers\NavigationComposer@navbar');
         view()->composer('partial.slider','\App\Http\Composers\NavigationComposer@slider');
+        view()->composer('partial.fastmenu','\App\Http\Composers\NavigationComposer@fastmenu');
+        view()->composer('pages.post','\App\Http\Composers\NavigationComposer@fastmenu');
         view()->composer('pages.homepage','\App\Http\Composers\NavigationComposer@homepage');
         view()->composer('pages.post','\App\Http\Composers\NavigationComposer@post');
+        view()->composer('cpanel.master','\App\Http\Composers\NavigationComposer@unverifiedCommentsCount');
     }
 
     /**

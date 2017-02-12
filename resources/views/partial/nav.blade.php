@@ -1,5 +1,5 @@
 <nav>
-    <ul>
+    <ul class="Navigation_bar">
         {{--<li><a href="#">صفحه اصلی</a></li>
         <li><a href="#">درباره دانشگاه</a></li>
         <li><span class="expand">دانشکده ها</span>

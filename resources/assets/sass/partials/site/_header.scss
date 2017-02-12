@@ -1,0 +1,163 @@
+header{
+
+	// 	padding: 10px;
+	user-select: none;//text cannot be selected
+	position:relative;
+	background-color: $bg-green;
+	height: 150px;
+	.logo{
+		background-color: #fff;
+		width: 120px;
+		@include border-radius(5px 0 0 5px);
+		padding: 20px ;
+		float:right;
+		margin-top: 12px;
+		margin-left: 15px;
+	}
+	.uni-name{
+		margin-top: 25px;
+	}
+	.lang{
+		background-color: rgba(white,.1);
+		@include border-radius(50px);
+		padding: 3px;
+		color: rgba(white,.9);
+		float:left;
+		margin: 5px 10px;
+		text-align: center;
+		a{
+			font-size: .65em;
+			display: block;
+			float:left;
+			width: 30px;
+			@include border-radius(50px);
+			@include transition-duration(.3s);
+			&.acitve{
+				background-color: rgba(white,.2);
+			}
+			&:first-child{
+				margin-right: 3px;
+			}
+			&:hover{
+				background-color: rgba(white,.3);
+			}
+		}
+	}
+	.search-box{
+		float:left;
+		position: absolute;
+		left:10px; 
+		top:30px;
+		width: 235px;
+		button{
+ 			opacity:1;
+			display: block;
+			@include transition-duration(.3s);
+			-webkit-appearance: none;
+			background-color: white;
+			padding: 0;
+			border:none;
+			@include border-radius(50px);
+			width: 35px;
+			height: 35px;
+			overflow:hidden;
+			outline:none;
+			float:left;
+			margin-top: -31px;
+			img{
+				width: 35px;
+				height: 35px;
+			}
+			&:hover{
+				opacity:.8;
+			}
+		}
+		input{
+			display: block;
+			border:none;
+			outline:none;
+			-webkit-appearance: none;
+			margin-top: 7px;
+    		margin-left: 25px;
+    		width: 230px;
+    		float:left;
+    		@include border-radius(0 30px 30px 0);
+    		background-color: rgba(white,.2);
+    		color:white;
+    		padding: 2px 13px;
+    		color: rgba(white,.8);
+		}
+	}
+	.time-box{
+		position: absolute;
+		color:white;
+		left:10px;
+		top: 75px;
+		width: 230px;
+		text-align: center;
+		height: 45px;
+		line-height:23px;
+		p{font-weight: 100}
+		div{
+			width: 100px;
+			float:right;
+			font-size:1.1em;
+			p{
+				line-height: 1.15em;
+				&.date{
+					font-size:1.2em;
+				}
+			}
+			span{
+				display: inline-block;
+				margin: 0 5px;
+				font-size: 1.2rem;
+			}
+		}
+		.time{
+			letter-spacing: -.05em;
+			float:right;
+			width: 130px;
+			height:45px;
+			font-size: 3.25rem;
+			line-height:46px;
+			span{
+				float: right;
+				display: block;
+			}
+			@include clearfix();
+			span.seperator{
+				width:18px;
+				text-align: center;
+			}
+			span.hour{
+				padding-right:5px;
+				width:55px;
+				text-align: right;
+			}
+			span.min{
+				text-align: left;
+				padding-left:5;
+				width:55px;
+			}
+		}
+
+		opacity: .6;
+		transition:all .5s;
+		&:hover{
+			opacity: .8;
+			transition:all .5s;
+		}
+	}
+	&:after{
+		content:'';
+		position: absolute;
+		top: 100%;
+		width: 1155px;
+		height: 30px;
+		left:0;
+		background-color: red;
+		margin-top:-30px;
+		background:transparent url('../img/rah-rah.png') ;
+	}
+}

@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>َ@yield('title')</title>
+    <title>@yield('title')</title>
     <meta charset="UTF-8">
     <meta dir="rtl" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!--&#91;if lt IE 9&#93;>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <!&#91;endif&#93;-->
 
     <link rel="stylesheet" href="{{asset('cpanel/css/cpanel.css')}}"/>
+    @include('favicon')
 </head>
 <body>
 <div class="container">
+
+    <?php
+        $dashboard="";
+    ?>
 
     <nav class="nav-vertical col-3">
         <div class="info">
@@ -31,7 +37,7 @@
         <ul>
 
             <li>
-                <a href="/admin-panel/" class="fa-home ">داشبورد</a>
+                <a href="/admin-panel/" class="fa-home {{$dashboard}}">داشبورد</a>
             </li>
 
             <li>
@@ -45,32 +51,28 @@
                 </ul>
             </li>
             <li>
-                <a href="" class="fa-file" onclick="return false">ایجاد برگه</a>
-                <ul class="toggle-menu">
-                    <li><a href="/admin-panel/page/new/">ایجاد برگه جدید</a></li>
-                    <li><a href="/admin-panel/managepages/">مدیریت برگه ها پیشین</a></li>
-                </ul>
+                <a href="/admin-panel/page/new/" class="fa-file" >ایجاد برگه</a>
             </li>
             <li class="hr">
-                <a href="/allcomments/" class="fa-user ">اعضای هیئت علمی</a>
+                <a href="/admin-panel/allprofessors/" class="fa-user ">اعضای هیئت علمی</a>
             </li>
             <li >
-                <a href="/allcomments/" class="fa-users ">مدیریت اعضا</a>
+                <a href="/admin-panel/allusers/" class="fa-users ">مدیریت اعضا</a>
             </li>
             <li>
-                <a href="/navigationbar/" class="fa-th-large ">مدیریت نوار منو</a>
+                <a href="/admin-panel/navigationbar/" class="fa-th-large ">مدیریت نوار منو</a>
             </li>
             <li>
-                <a href="/navigationbar/" class="fa-television ">اسلایــدر</a>
+                <a href="/admin-panel/slider/" class="fa-television ">اسلایــدر</a>
             </li>
             <li>
-                <a href="/fastmenu/" class="fa-bars ">منوی دسترسی سریع</a>
+                <a href="/admin-panel/fastmenu/" class="fa-bars ">منوی دسترسی سریع</a>
             </li>
             <li>
-            <a href="/allsetting/" class="fa-cog ">تنظیمات عمومی</a>
+                <a href="/admin-panel/allsetting/" class="fa-cog ">تنظیمات عمومی</a>
             </li>
             <li >
-                <a href="/allcomments/" class="fa-commenting "> دیدگاه ها <span class="badge">155</span></a>
+                <a href="/admin-panel/allcomments/" class="fa-commenting "> دیدگاه ها <span class="badge" title="دیدگاه های تایید نشده">{{$unverifiedCommentsCount}}</span></a>
             </li>
             <li >
                 <a href="/" class="fa-paper-plane" target="_blank">مشاهده سایت اصلی</a>
@@ -99,5 +101,6 @@
 {{--</script>--}}
 {{--@yield('scripts')--}}
 @yield('scripts')
+
 </body>
 </html>

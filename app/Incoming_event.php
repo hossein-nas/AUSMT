@@ -4,14 +4,19 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Incoming_event extends Model
-{
-    protected $fillable = [
-        'title',
-        'hifen_title',
-        'content',
-        'expired_date'
-    ];
+class Incoming_event extends Model {
 
-    protected $dates= ['expired_date'];
+	protected $fillable = [
+		'title',
+		'hifen_title',
+		'content',
+		'expired_date'
+	];
+
+	protected $dates = [ 'expired_date' ];
+
+	public function author()
+	{
+		return $this->belongsTo('App\User');
+	}
 }

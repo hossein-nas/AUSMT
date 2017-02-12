@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Composers;
 
+use App\Comment;
 use App\Incoming_event;
 use App\Incoming_event as Incoming;
 use App\Navbar;
@@ -38,12 +39,12 @@ class NavigationComposer {
     // homepage
     public function homepage($view) {
         $arr = [
-            'hot_news' => Post::where('priority',1)->orderBy('created_at','DESC')->limit(10)->get(),
-            'posts' => Post::where('post_type',1)->orderBy('created_at','DESC')->limit(6)->get(),
-            'notfications' => Post::where('post_type',3)->orderBy('created_at','DESC')->limit(6)->get(),
-            'seminars' => Post::where('post_type',4)->orderBy('created_at','DESC')->limit(6)->get(),
-            'others' => Post::where('post_type',5)->orderBy('created_at','DESC')->limit(6)->get(),
-            'incomings' => Incoming::where('expired_date','>',Carbon::now())->oldest('expired_date')->get()
+            'hot_news'      => Post::hotPosts()->get(),
+            'posts'         => Post::allPost(true)->get(),
+            'notfications'  => Post::allNotfication(true)->get(),
+            'seminars'      => Post::allSeminar(true)->get(),
+            'others'        => Post::allOther(true)->get(),
+            'incomings'     => Post::allIncoming(true)->get(),
         ];
         $view->with($arr);
     }
@@ -51,8 +52,18 @@ class NavigationComposer {
     // post
     public function post($view) {
         $arr = [
-            'hot_news' => Post::where('priority',1)->orderBy('created_at','DESC')->limit(10)->get(),
+            'hot_news'      => Post::hotPosts()->get(),
         ];
         $view->with($arr);
+    }
+    public function fastmenu($view) {
+	    $f_menu = getFastMenuItems();
+	    ksort($f_menu);
+	    $view->with('f_menu',$f_menu);
+    }
+    public function unverifiedCommentsCount($view) {
+	    $unverifiedCommentsCount = Comment::unverifiedCm()->get()->count();
+	    $unverifiedCommentsCount = toPersianNums($unverifiedCommentsCount);
+	    $view->with('unverifiedCommentsCount',$unverifiedCommentsCount);
     }
 }

@@ -1,0 +1,144 @@
+nav{
+	position: relative;
+	width: 1100px;
+	height: 50px;
+	background-color: $nav-green;
+	margin: 3px auto;
+	color:white;
+	&:before{
+		content:'';
+		display: block;
+		position: absolute;
+		left:100%;
+		top:0;
+		width: 43px;
+		height: 50px;
+		background:transparent url('../img/nav-right.png') left top no-repeat;;
+	}
+	&:after{
+		content:'';
+		display: block;
+		position: absolute;
+		right:100%;
+		top:0;
+		width: 43px;
+		height: 50px;
+		background:transparent url('../img/nav-left.png') left top no-repeat;;
+	}
+	>ul{
+		margin: 0;
+		padding: 0;
+		@include clear-fix;
+		>li{
+			position:relative;
+			margin: 0;
+			padding: 0;
+			float:right;
+			height: 50px;
+			list-style-type:none;
+			display: block;
+			>a,span{
+				padding:9px 13px 0 13px;
+				font-size: 1.25em;
+				display: block;
+				width: 100%;
+				height: 100%;
+				color:white;
+				text-decoration:none;
+				&.expand:after{
+					content:"";
+					width: 15px;
+					height: 7px;
+					display: block;
+					float: left;
+					background:transparent url('../img/arrow-down.png') left top no-repeat;
+					background-size: cover;
+					margin: 13px 8px 0 0;
+				}
+			}
+			ul.menu{
+				position: absolute;
+				opacity:0;
+				visibility:hidden;
+				width: 100%;
+				top:50px;
+				background-color: $nav-green;
+				z-index:100000;
+				>li{
+					font-size: 1.1em;
+					display: block;
+					position:relative;
+					width: 100%;
+					height: inherit;
+					padding: 3px 10px 5px 10px;
+					line-height:18px;
+					&:hover{
+						background-color: $red;
+						color:white;
+						.sub-menu{
+							@include transition-duration(.4s);
+							visibility:visible;
+							opacity:1;
+						}
+					}
+					ul.sub-menu{
+						@include transition-duration(.2s);
+						position: absolute;
+						width: 100%;
+						background-color: $nav-green;
+						color:white;
+						right:100%;
+						top:0;
+						visibility:hidden;
+						opacity:0;
+						padding-right: 5px;
+						li{
+							display: block;
+							width: 100%;
+							height: inherit;
+							padding: 3px 10px 5px 10px;
+							line-height:18px;
+							&:hover{
+								background-color: $red;
+								color:white;
+							}
+						}
+					}
+				}
+				&:after,&:before{
+					content:"";
+					display: block;
+					background-color: white;
+					width: 0;
+					height: 5px;
+					top:50px;
+					margin-top: -5px;
+				}
+				&:after{
+					position:absolute;
+					top:0;
+					left:0;
+				}
+				
+			}
+			&:hover{
+				background-color: rgba(white,.1);
+				cursor: pointer;
+				ul:after,ul:before{
+					width: 50%;
+					@include transition-duration(.7s);
+				}
+				ul{
+					visibility:visible;
+					opacity:1;
+					@include transition-duration(.5s);
+				}
+			}
+		}
+	}
+}
+.slider{
+	width: 100%;
+	height: 565px;
+	background-color: rgba($green,.3);
+}

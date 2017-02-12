@@ -1,0 +1,310 @@
+.content{
+	
+	.navbar{
+		@include box-shadow(0 -3px 25px rgba(black,.15));
+		position:relative;
+		@include clear-fix();
+		height: 72px;
+		@include background-image(linear-gradient(white 60%,#e7e7e7));
+		ul{
+			@include clear-fix();
+			padding: 15px 35px 0 35px;
+			li{
+				display: inline-block;
+				text-align: center;
+				padding: 3px 35px 7px 35px;
+				color:lighten($grey,7);
+				font-size: 1.5em;
+				//font-family:$GANJ;
+				line-height: 32px;
+
+				margin: 0 8px;
+				@include border-radius(10px);
+				&:hover{
+					background-color:$hover;
+					@include transition-duration(.3s);
+					cursor: pointer;
+					color:$grey;
+				}
+				&.active{
+					color:white;
+					background-color: $nav-green;
+				}
+				&:active{
+					color:white;
+					background-color: $nav-green;
+				}
+			}
+		}
+	}
+	.body{
+		&:before{
+			margin-top:-20px;
+			display: block;
+			content:'';
+			height: 20px;
+			background:transparent url('../img/shadow.png') left -10px no-repeat;
+		}
+		@include transition-duration(height .3s);
+		padding: 20px ;
+		@include clear-fix();
+		overflow:hidden;
+		>div{
+			padding-top: 10px;
+			display: none;
+			opacity:0;
+			&:first-child{
+				opacity:1;
+				display: block;
+			}
+		}
+		.news,.notice,.conference{
+			article{
+				display: block;
+				float: right;
+				width: 50%;
+				&.slide-show{
+					padding-left:30px;
+					ul{
+						margin: 20px auto;
+						width: 480px;
+						height: 270px;
+						background-color: #eee;
+						@include border-radius(10px);
+						position: relative;
+						overflow:hidden;
+						li{
+							list-style-type:none;
+							opacity:0;
+							position: absolute;
+							width: 100%;
+							height: 100%;
+							a{
+								height: 100%;
+								width: 200%;
+								margin-right: -240px;
+								text-align: center;
+								img{
+									height: 100%;
+									min-width: 480px;
+								}
+							}
+							&:first-child{
+								opacity:1;
+							}
+							&.active{
+								z-index:2;
+								opacity:1;
+							}
+							&.reserve{
+								z-index:1;
+								opacity:1;
+							}
+							.details{
+								width:470px;
+								right:5px;
+								display: block;
+								position: absolute;
+								bottom : 5px;
+								span{
+									display: inline-block;
+									@include border-radius(10px);
+									background-color: rgba(black,.4);
+									padding: 0px 7px;
+									font-size: .9em;
+									color: rgba(255, 255, 255, 0.61);
+									&.view{
+										float:right;
+									}
+									&.date{
+										float:left;
+									}
+								}
+							}
+
+						}
+					}
+				}
+				&.links{
+					ul{
+						margin: 20px 0;
+						li{
+							list-style-type:none;
+							display: block;
+							width: 100%;
+							@include border-radius(7px 0 0 7px);
+							margin: 2px 0;
+							a{
+								display: block;
+								height: 100%;
+								padding: 5px 15px 7px 15px;
+								color:$dark-grey;
+								font-size: 1.3em;
+								line-height:32px;
+								white-space: nowrap;
+								text-overflow: ellipsis;
+								overflow:hidden;
+							}
+							&:hover{
+								background-color: $hover;
+								a{color:darken($blue,5)}
+								&:before{
+									display: block;
+									border-left-color: $hover;
+								}
+							}
+							&:before{
+								content:'';
+								float:right;
+								display: block;
+								border:22px solid lighten($red,5);
+								border-right:0;
+								margin-right: -25px;
+								border-top-color:transparent;
+								border-bottom-color:transparent;
+								border-left-width:25px;
+								width: 0;
+								height: 0;
+								display: none;
+							}
+							&.active{
+								background-color: lighten($red,5);
+
+								a{color:white;}
+								cursor:pointer;
+								&:before{
+									display: block;
+									border-left-color: lighten($red,5);
+								}
+							}
+						}
+					}
+				}
+
+				&.readmore{
+					display: block;
+					width: 100%;
+					text-align: center;
+					padding: 20px;
+					a{
+						position: relative;
+						display: inline-block;
+						padding: 5px 30px 7px 30px;
+						font-size: 1.5em;
+						color:lighten($grey,4);
+						border:2px solid $light-grey;
+						@include border-radius(200px);
+						@include transition-duration(.2s);
+						&:hover{
+							border-color:$red;
+							background-color: $red;
+							color:white;
+							@include transition-duration(.25s);
+							padding: 5px 30px 7px 55px;
+							&:before,&:after{
+								@include transition-duration(.2s);
+								@include transition-delay(.1s);
+								opacity:1;
+							}
+						}
+						&:before,&:after{
+							content:'';
+							float:left;
+							background-color: #fff;
+							display: block;
+							opacity:0;
+							position: absolute;
+						}
+						&:before{
+							width: 25px;
+							height: 2px;
+							top:50%;
+							left:15px;
+						}
+						&:after{
+							width: 2px;
+							height: 25px;
+							top: 12px;
+							left: 27px;
+						}
+					}
+				}
+			}
+		}
+		.notice{
+			.links{
+				li{
+					&.active{
+						background-color: lighten($blue,5) !important;
+						&:before{
+							border-left-color: lighten($blue,5)!important;
+						}
+					}
+				}
+			}
+		}
+		.conference{
+			.links{
+				li{
+					&.active{
+						background-color: darken($yellow,5) !important;
+						&:before{
+							border-left-color: darken($yellow,5)!important;
+						}
+					}
+				}
+			}
+		}
+		.incoming-events{
+			section{
+				color:white;
+				background-color: lighten($light-grey,5);
+				@include border-radius(10px 0 0 10px);
+				width: 280px;
+				height: 80px;
+				cursor: pointer;
+				float:right;
+				overflow: hidden;
+				margin-left:10px;
+				margin-bottom:10px;
+				&:nth-child(4n){
+					margin-left:0;
+				}
+				.day{
+					background-color: $blue;
+					@include border-radius(10px 0 0 10px);
+					width: 80px;
+					height: 80px;
+					float:right;
+					color:white;
+					text-align: center;
+					padding: 13px 0;
+					span{
+						display: block;
+						font-size: 1.2em;
+					}
+					span:first-child{
+						font-size: 65px;
+						line-height:35px;
+					}
+				}
+				.wrapper{
+					height:80px;
+					p{
+						color:darken($grey,10);
+						width: 200px;
+						padding: 5px 10px;
+						line-height:1.3em;
+						font-size: 1.3em;
+						margin-right:80px;
+					}
+				}
+				&:hover{
+					opacity:.9;
+				}
+			}
+		}
+	}
+
+
+}
